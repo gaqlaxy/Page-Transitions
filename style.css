@@ -165,6 +165,16 @@ nav{
   /* color: #cf711f; */
   border-bottom: 1px solid transparent;
 }
+.product-cart{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.shopping-bag{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
