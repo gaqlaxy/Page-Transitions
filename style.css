@@ -136,3 +136,64 @@ nav{
 .card{
   padding: 2rem;
 }
+
+/* FOR adding back to home in Products page  */
+
+.para-product{
+  display: inline-block;
+}
+.for-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.centre-link:link,
+.centre-link:visited {
+  display: inline-block;
+  /* color: #e67e22; */
+  color: #4b4b4b;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.centre-link:hover,
+.centre-link:active {
+  color: #4b4b4b;
+  /* color: #cf711f; */
+  border-bottom: 1px solid transparent;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .showcase{
+    flex-direction: column;
+    padding: 20%;
+    justify-content: space-evenly;
+    min-height: 85vh;
+  }
+  .image-container{
+    min-height: 30vh;
+    justify-content: center;
+    order: 1;
+  }
+  .image-container img{
+    height: 100%;
+  }
+  .showcase-title{
+    font-size: 1.5rem;
+  }
+  .showcase-subtitle{
+    font-size: 1rem;
+    padding: 2rem 0rem;
+  }
+  .showcase-text{
+    padding-bottom: 0;
+  }
+  .showcase-arrow{
+    right: 0;
+    bottom: 50%;
+  }
+}
